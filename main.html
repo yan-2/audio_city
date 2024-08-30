@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+<div id="loader">
+    <div class='loaderLogo'></div>
+    <div class="loading">
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+    </div>
+</div>
+<div id="UIContainer">
+    <div class='logo'></div>
+    <div class="trait"></div>
+    <h3>How to navigate ?</h3>
+    <div class="rel">
+        <span>Keyboard</span>
+        <span class="ab">Mouse</span>
+    </div>
+    <div class="rel">
+        <p>
+            Forward : Z | &#8593; <br>
+            Backward : S | &#8595; <br>
+            Left : Q | &#8592;<br>
+            Right : D | &#8594; <br>
+            Up : R <br>
+            Down : F <br>
+        </p>
+        <p class="ab">
+            Left Click : Forward<br>
+            Right Click : Backward<br>
+            Moove : Orientation
+            <br><br>
+            Day/Night Mode : N<br>
+            Random : SpaceBar
+        </p>
+    </div>
+    <div class="trait"></div>
+
+    <div id="WebGL-output"></div>
+</div>
+<script src="./three.min.js"></script>
+    <script src="./ui.js"></script>
+    <script src="./first_person.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
